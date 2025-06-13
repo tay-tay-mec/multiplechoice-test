@@ -1,0 +1,16 @@
+[
+    {
+        "question" : "What color is the grass",
+        "answer" : "green",
+        "opt" : [
+            "red", "yellow", "pink"
+        ]
+    },
+     {
+        "question" : "What color is the grass",
+        "answer" : "green",
+        "opt" : [
+            "red", "yellow", "pink"
+        ]
+    }
+]
