@@ -51,7 +51,6 @@ function createQuestion(data){
 }
 
 function outputQuestion(question, parent, tBtn){
-    console.log(question);
     const que = pageEles(parent, 'div', `${question.question}`, 'question');
     const arr = question.opt;
     arr.push(question.answer);
@@ -78,7 +77,6 @@ function outputQuestion(question, parent, tBtn){
                 tBtn.style.display = 'block';
             }
         })
-    console.log(arr);
 }
 
 function pageEles(parent,t,html,c){

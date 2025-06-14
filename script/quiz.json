@@ -1,16 +1,462 @@
 [
     {
-        "question" : "What color is the grass",
-        "answer" : "green",
+        "question" : "Was ist die Hauptaufgabe von HTML?",
+        "answer" : "Die Struktur und den semantischen Inhalt einer Webseite zu ",
         "opt" : [
-            "red", "yellow", "pink"
+            "Die Webseite zu designen und Farben festzulegen.",
+             "Interaktive Animationen zu erstellen.",
+              "Die grundlegenden Bausteine eines Webseitservers bereitzustellen."
         ]
     },
      {
-        "question" : "What color is the grass",
-        "answer" : "green",
+        "question" : "Wie sieht die grundlegende Struktur eines HTML5-Dokuments aus?",
+        "answer" : "<!DOCTYPE html><html><head><title>Titel</title></head><body>Inhalt</body></html>",
         "opt" : [
-            "red", "yellow", "pink"
+            "<html><head></head><body></body></html>",
+            "<document><header></header><content></content></document>", 
+            "<head><meta></meta></head><body><p></p></body"
+        ]
+    },
+         {
+        "question" : "Welche dieser Tags gehören typischerweise in den <head>-Bereich einer HTML-Seite?",
+        "answer" : "<title>",
+        "opt" : [
+            "<neta>",
+            "<links>", 
+            "<p>"
+        ]
+    },
+             {
+        "question" : "Wie erstellt man einen funktionierenden Link zu https://example.com in HTML?",
+        "answer" : "<a href=\"https://example.com\">Klick hier</a>",
+        "opt" : [
+            "<p url=\"https://example.com\">Klick hier</p>",
+            "<link>https://example.com</link>", 
+            "<a src=\"https://example.com\">Klick hier</a>"
+        ]
+    },
+             {
+        "question" : "Welche HTML-Tags werden verwendet, um eine ungeordnete Liste (mit Aufzählungspunkten) zu erstellen?",
+        "answer" : "<ul>, <li>",
+        "opt" : [
+            "<ol>, <li>",
+            "<list>, <item>", 
+            "<uI>, <Ii>"
+        ]
+    },
+             {
+        "question" : "Was ist der Zweck des alt-Attributs in einem <img>-Tag?",
+        "answer" : "Es beschreibt den Bildinhalt für Screenreader und verbessert die Barrierefreiheit.",
+        "opt" : [
+            "Es legt die URL des Bildes fest.",
+            "Es fügt dem Bild einen sichtbaren Titel hinzu, wenn man mit der Maus darüberfährt.", 
+            "Es gibt die URL eines zweiten Bildes fest, falls das erste nicht geladen werden kann."
+        ]
+    },
+             {
+        "question" : "Welcher der folgenden HTML-Tag ist ein 'sematischer' HTML-Tag, der die Bedeutung seines Inhalts beschreibt?",
+        "answer" : "<article>",
+        "opt" : [
+            "<heather>",
+            "<div>", 
+            "<desc>"
+        ]
+    },
+             {
+        "question" : "Wie bindet man ein Video in eine Webseite ein",
+        "answer" : "<video src=\"video.mp4\"></video>",
+        "opt" : [
+            "<img src=\"video.mp4\">",
+            "<media source=\"video.mp4\">", 
+            "<embed type=\"video/mp4\" src=\"video.mp4\">"
+        ]
+    },
+             {
+        "question" : "Welche dieser Tags werden häufig zum Erstellen eines Web-Formulars verwendet?",
+        "answer" : "<input>",
+        "opt" : [
+            "<furm>",
+            "<buttom>", 
+            "<lable>"
+        ]
+    },
+             {
+        "question" : "Welchen type kann ein <input>-Element haben?",
+        "answer" : "text",
+        "opt" : [
+            "passcode",
+            "checker", 
+            "submid"
+        ]
+    },
+             {
+        "question" : "Was ist der Hauptunterschied zwischen den Attributen id und class?",
+        "answer" : "Eine id muss im gesamten Dokument einzigartig sein.",
+        "opt" : [
+            "Eine class kann nicht für mehrere Elemente verwendet werden.",
+            "id wird nur für CSS verwendet, class nur für JavaScript.", 
+            "Elemente können mehrere id haben, aber nur einen class-Namen."
+        ]
+    },
+             {
+        "question" : "Wie schreibt man einen Kommentar in HTML, der vom Browser ignoriert wird?",
+        "answer" : "<!-- Dies ist ein Kommentar -->",
+        "opt" : [
+            "// Dies ist ein Kommentar",
+            "/* Dies ist ein Kommentar */", 
+            "# Dies ist ein Kommentar"
+        ]
+    },
+             {
+        "question" : "Welcher Tag wird verwendet, um eine einzelne Zelle in einer HTML-Tabelle zu definieren?",
+        "answer" : "<td>",
+        "opt" : [
+            "<tr>",
+            "<table>", 
+            "<tz>"
+        ]
+    },
+             {
+        "question" : "Was ist der Unterschied zwischen einem <div>- und einem <span>-Element?",
+        "answer" : "<div> ist ein Block-Element, das standardmäßig die volle Breite einnimmt und einen Zeilenumbruch erzeugt.",
+        "opt" : [
+            "<span> ist für große Layout-Container gedacht, <div> für kleine Text-Hervorhebungen.",
+            "Es gibt keinen funktionalen Unterschied.", 
+            "<span> ist ein Online-Element, das sich in den Textfluss einfügt, ohne einen Umbruch zu erzeugen."
+        ]
+    },
+             {
+        "question" : "Welcher Doctype deklariert ein HTML5-Dokument?",
+        "answer" : "<!DOCTYPE html>",
+        "opt" : [
+            "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\">",
+            "<!DOCTYPE html5>", 
+            "<!DOCTYPE>"
+        ]
+    },
+             {
+        "question" : "Wofür steht CSS?",
+        "answer" : "Cascading Style Sheets",
+        "opt" : [
+            "Creative Style Scripts",
+            "Computer Styling System", 
+            "Client Style Syntax"
+        ]
+    },
+             {
+        "question" : "Wie wählt man ein Element mit der ID header-logo in CSS aus?",
+        "answer" : "#header-logo",
+        "opt" : [
+            ".header-logo",
+            "header-logo", 
+            "id(header-logo)"
+        ]
+    },
+             {
+        "question" : "Wie wählt man alle Elemente mit der Klasse highlight aus?",
+        "answer" : ".highlight",
+        "opt" : [
+            "#highlight",
+            "*highlight", 
+            "class(highlight)"
+        ]
+    },
+             {
+        "question" : "Welche CSS-Eigenschaft wird verwendet, um die Hintergrundfarbe eines Elements zu ändern?",
+        "answer" : "background-color",
+        "opt" : [
+            "color",
+            "bgcolor", 
+            "element-color"
+        ]
+    },
+             {
+        "question" : "Die Eigenschaft color in CSS ändert welche Farbe?",
+        "answer" : "Die Textfarbe",
+        "opt" : [
+            "Die Hintergrundfarbe",
+            "Die Rahmenfarbe", 
+            "Die Farbe des Scrollbalkens"
+        ]
+    },
+             {
+        "question" : "Was beschreibt das CSS-Box-Modell?",
+        "answer" : "Jedes HTML-Element wird als rechteckige Box betrachtet.",
+        "opt" : [
+            "Eine Box besteht aus Inhalt (Content), Innenabstand (Margin), Rahmen (Border) und Außenabstand (Padding).",
+            "Es ist eine JavaScript-Bibliothek für 3D-Modellierung.", 
+            "Es definiert die Hierarchie von HTML-Tags."
+        ]
+    },
+             {
+        "question" : "Was ist der Unterschied zwischen padding und margin?",
+        "answer" : "padding ist der Abstand innerhalb des Rahmens (Border) eines Elements, margin ist der Abstand außerhalb.",
+        "opt" : [
+            "margin ist der Abstand innerhalb des Rahmens, padding ist der Abstand außerhalb.",
+            "Beide machen das Gleiche, aber margin akzeptiert keine negative Werte.", 
+            "margin vergrößert das Element, padding schafft Raum um das Element herum."
+        ]
+    },
+             {
+        "question" : "Welche Werte kann die display-Eigenschaft annehmen?",
+        "answer" : "block",
+        "opt" : [
+            "inliner",
+            "flix", 
+            "nothing"
+        ]
+    },
+             {
+        "question" : "Was bewirkt die CSS-Pseudo-Klasse :hover?",
+        "answer" : "Sie wendet Stile an, wenn der Benutzer mit der Maus über ein Element fährt.",
+        "opt" : [
+            "Sie wählt ein Element aus, das gerade angeklickt wird.",
+            "Sie wählt das erste Element eines Typs aus.", 
+            "Sie wählt nur Links aus."
+        ]
+    },
+             {
+        "question" : "Was sind CSS Media Queries (@media) nützlich für?",
+        "answer" : "Um CSS-Regeln nur anzuwenden, wenn bestimmte Bedingungen (z.B. Bildschirmbreite) erfüllt sind.",
+        "opt" : [
+            "Um Medientypen wie Audio und Video zu stylen.",
+            "Um Animationen zu definieren.", 
+            "Um ein Design zu erstellen, das sich nicht an unterschiedliche Bildschirmgrößen anpasst."
+        ]
+    },
+             {
+        "question" : "Welche CSS-Einheiten sind relativ (d.h. abhängig von einem anderen Wert)?",
+        "answer" : "rem",
+        "opt" : [
+            "px",
+            "dem", 
+            "en"
+        ]
+    },
+             {
+        "question" : "Was ist das Konzept der \"Spezifität\" in CSS?",
+        "answer" : "Es ist eine Regel, die bestimmt, welche CSS-Regel angewendet wird, wenn mehrere Regeln auf dasselbe Element zutreffen.",
+        "opt" : [
+            "Es beschreibt, wie spezifisch ein Element gestylt werden kann.",
+            "Eine Klasse (#class) ist spezifischer als eine ID (.id).", 
+            "Ein Inline-Style ist nicht am spezifischsten"
+        ]
+    },
+             {
+        "question" : "Was ist der Hauptzweck von CSS Flexbox?",
+        "answer" : "Ein-dimensionales Layout zu erstellen und Elemente entlang einer Achse auszurichten und zu verteilen.",
+        "opt" : [
+            "Schriftarten und Farben zu verwalten.",
+            "3D-Transformationen zu erstellen.", 
+            "Die Datenbankverbindung zu steuern."
+        ]
+    },
+             {
+        "question" : "Welche Eigenschaft gehört zur Flexbox?",
+        "answer" : "justify-content",
+        "opt" : [
+            "text-align",
+            "align-other", 
+            "justify-context"
+        ]
+    },
+             {
+        "question" : "Wie kann man eine CSS-Variable definieren und verwenden?",
+        "answer" : "Im :root-Selektor: --main-color: blue; und dann color: var(--main-color);",
+        "opt" : [
+            "let --main-color: blue; und color: var(--main-color);",
+            "$main-color: blue; und color: $main-color;", 
+            "Man kann keine Variablen in reinem CSS verwenden."
+        ]
+    },
+             {
+        "question" : "Wie bindet man eine externe JavaScript-Datei namens app.js in HTML ein?",
+        "answer" : "<script src=\"app.js\"></script>",
+        "opt" : [
+            "<link rel=\"script\" href=\"app.js\">",
+            "<script href=\"app.js\"></script>", 
+            "<javascript src=\"app.js\"></javascript>"
+        ]
+    },
+             {
+        "question" : "Wie deklariert man eine Variable in modernem JavaScript?",
+        "answer" : "let myVariable = 10;",
+        "opt" : [
+            "variable myVar = 5;",
+            "var oldVariable : true;", 
+            "constant myConstant = \"Hallo\";"
+        ]
+    },
+             {
+        "question" : "Welche der folgenden sind primitive Datentypen in JavaScript?",
+        "answer" : "string",
+        "opt" : [
+            "array",
+            "nummer", 
+            "bolean"
+        ]
+    },
+             {
+        "question" : "Wie schreibt man einen einzeiligen Kommentar in JavaScript?",
+        "answer" : "// Kommentar",
+        "opt" : [
+            "<!-- Kommentar -->",
+            "/* Kommentar */", 
+            "# Kommentar"
+        ]
+    },
+                 {
+        "question" : "Welcher Operator wird für einen strikten Vergleich (Wert und Typ) verwendet?",
+        "answer" : "===",
+        "opt" : [
+            "==",
+            "=", 
+            "!="
+        ]
+    },
+                 {
+        "question" : "Wie kann man auf ein HTML-Element mit der ID myElement zugreifen?",
+        "answer" : "document.getElementById(\"myElement\")",
+        "opt" : [
+            "document.getElementsByClassName(\"myElement\")",
+            "getElement(\"myElement\")", 
+            "document.querSelector(\"#myElement\")"
+        ]
+    },
+                 {
+        "question" : "Was macht die Methode console.log(\"Hallo Welt\");?",
+        "answer" : "Sie schreibt \"Hallo Welt\" in die Entwicklerkonsole des Browsers.",
+        "opt" : [
+            "Sie ändert den Inhalt eines HTML-Elements zu \"Hallo Welt\".",
+            "Sie zeigt \"Hallo Welt\" in einem Popup-Fenster an", 
+            "Sie speichert \"Hallo Welt\" in einer Variable."
+        ]
+    },
+                 {
+        "question" : "Wie definiert man eine Funktion in JavaScript?",
+        "answer" : "function myFunction() { ... }",
+        "opt" : [
+            "def myFunction(): ...",
+            "myFunction: function() { ... ", 
+            "const myFunction = () = { ... } "
+        ]
+    },
+                 {
+        "question" : "Was ist ein \"Event\" im Kontext von JavaScript?",
+        "answer" : "Eine Aktion, die auf der Webseite stattfindet, z.B. ein Klick, eine Tastatureingabe oder das Laden der Seite.",
+        "opt" : [
+            "Ein Fehler im Code.",
+            "Eine geplante Aufgabe, die zu einer bestimmten Zeit ausgeführt wird.", 
+            "Eine CSS-Animation."
+        ]
+    },
+                 {
+        "question" : "questio",
+        "answer" : "answer",
+        "opt" : [
+            "option",
+            "option", 
+            "option"
+        ]
+    },
+                 {
+        "question" : "Wie ändert man den Textinhalt eines <p>-Elements mit der ID info zu \"Neuer Text\"?",
+        "answer" : "andocument.getElementById(\"info\").textContent = \"Neuer Text\";swer",
+        "opt" : [
+            "document.getElemetById(\"info\").innerHTML = \"Neuer Text\";",
+            "document.getElementById(\"info\").value = \"Neuer Text\";", 
+            "document.querySelector(\"#info\").text = \"Neuer Text\";"
+        ]
+    },
+                 {
+        "question" : "questio",
+        "answer" : "answer",
+        "opt" : [
+            "option",
+            "option", 
+            "option"
+        ]
+    },
+                 {
+        "question" : "Was ist ein Array in JavaScript?",
+        "answer" : "Eine geordnete Liste von Werten, auf die über einen Index zugegriffen wird.",
+        "opt" : [
+            "Ein einzelner Wert wie eine Zahl oder ein String.",
+            "Eine geordnete Liste von Werten, auf die über einen Index zugegriffen wird.", 
+            "Ein anderer Name für eine Funktion."
+        ]
+    },
+                 {
+        "question" : "Wie greift man auf das erste Element in einem Array namens myArray zu?",
+        "answer" : "myArray[0]",
+        "opt" : [
+            "myArray(0)",
+            "myArray.first()", 
+            "myArray[1]'myArray.first()';"
+        ]
+    },
+                 {
+        "question" : "Was ist das DOM (Document Object Model)?",
+        "answer" : "Eine baumartige Repräsentation der HTML-Struktur, die es JavaScript ermöglicht, die Seite zu manipulieren.",
+        "opt" : [
+            "Ein JavaScript-Framework wie React oder Vue.",
+            "Eine Sicherheitsfunktion des Browsers.", 
+            "Die API zum Zeichnen auf einem <canvas>-Element."
+        ]
+    },
+                 {
+        "question" : "Welche der folgenden Schleifen gibt es in JavaScript?",
+        "answer" : "for",
+        "opt" : [
+            "repeat...until",
+            "whiles", 
+            "forEachother"
+        ]
+    },
+                 {
+        "question" : "Wie kann man mit JavaScript eine CSS-Klasse zu einem Element hinzufügen?",
+        "answer" : "element.classList.add(\"new-class\");",
+        "opt" : [
+            "element.style.addClass(\"new-class\");",
+            "element.css(\"add-class\", \"new-class\");", 
+            "oplemet.className += \" new-class\";tion"
+        ]
+    },
+                 {
+        "question" : "Welchen Wert hat die Variable result nach dieser Anweisung: const result = \"5\" + 3;?",
+        "answer" : "\"53\" ",
+        "opt" : [
+            "8",
+            "\"8\"", 
+            "Einen Fehler"
+        ]
+    },
+                 {
+        "question" : "Was ist JSON?",
+        "answer" : "Ein leichtgewichtetes Datenformat zum Austausch von Daten zwischen Client und Server.",
+        "opt" : [
+            "Eine Programmiersprache",
+            "Seine Syntax ist von HTML-Objektliteralen abgeleitet.", 
+            "Ein Standard zur Verschlüsselung von Daten."
+        ]
+    },
+                     {
+        "question" : "Welche dieser Werte gelten nicht in JavaScript als \"falsy\" (werden in einem booleschen Kontext als false ausgewertet)?",
+        "answer" : "[]",
+        "opt" : [
+            "0",
+            "\"\"", 
+            "null"
+        ]
+    },
+                     {
+        "question" : "Welchen Wert erhält man als Resultat: [] == []",
+        "answer" : "false",
+        "opt" : [
+            "''",
+            "[]", 
+            "NaN"
         ]
     }
+    
 ]
